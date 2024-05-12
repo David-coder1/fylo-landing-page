@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+.fylo-logo {
+  height: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px;
+}
+button:hover {
+  background-color: hsl(224, 81%, 78%);
+}
+#firstTextDislay,
+#secondTextDisplay {
+  color: rgb(236, 62, 62);
+  font-size: small;
+  font-family: "Raleway";
+  margin: 3px 0px;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  color: hsl(243, 87%, 12%);
+  font-size: 13px;
+  font-weight: 400;
+}
+a:hover {
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+.all-your-files-section,
+.stay-productive-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+.all-your-files-section h1 {
+  margin: 15px 20px;
+  font-size: 30px;
+  width: 30rem;
+}
+.all-your-files-section p {
+  margin: 2px 20px;
+  width: 30rem;
+}
+
+.input-and-get-started-btn {
+  margin: 7px -10px;
+}
+
+.get-started-btn {
+  padding: 5px 40px;
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 4px;
+}
+.input-and-get-started-btn,
+input {
+  padding: 2px 30px;
+}
+.all-your-files-img {
+  height: 200px;
+}
+
+.see-how-fylo-work-link a {
+  color: hsl(170, 45%, 43%);
+  text-underline-offset: 1rem;
+  font-style: 14px;
+  font-weight: 30px;
+}
+
+.icon-arrow {
+  padding-top: 20px;
+}
+
+.see-how-fylo-work-link a:hover {
+  color: hsl(170, 45%, 43%);
+}
+.stay-productive-section {
+  margin-top: 170px;
+}
+.stay-productive-text {
+  margin: 30px 20px;
+}
+.stay-productive-img {
+  margin-top: 50px;
+  height: 200px;
+}
+.testimony_box {
+  background-color: hsl(240, 75%, 98%);
+  margin: 70px 0px;
+  padding: 10px;
+  width: 20rem;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 0px rgb(234, 232, 232);
+  line-height: 25px;
+  font-size: 13px;
+}
+.icon-quotes-icon {
+  margin: 20px;
+}
+.testimony_box .p2 {
+  width: 17rem;
+  margin: 0 20px;
+  font-size: 13px;
+}
+
+.keyle-img-text {
+  display: flex;
+  margin: 20px;
+  font-size: 10px;
+  line-height: 17px;
+}
+.keyle-name-position {
+  margin: 10px;
+  font-size: 11px;
+  font-size: bold;
+  font-weight: 400;
+}
+
+.keyle-name {
+  font-size: 13px;
+  font-size: bolder;
+  font-weight: 700;
+}
+
+.Keyle-img {
+  height: 50px;
+  border-radius: 40px;
+}
+.p1 {
+  margin: 30px 0px;
+  width: 26rem;
+  font-size: 13px;
+}
+.p2 {
+  margin: -35px 0px;
+  width: 28rem;
+  font-size: 14px;
+}
+.see-how-fylo-work-link {
+  margin-top: 30px;
+}
+
+.get-early-acces-section {
+  font-size: 30px;
+  width: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(238, 22%, 44%);
+}
+.get-early-acces-section_text h1 {
+  font-size: 23px;
+  color: white;
+  margin: 15px 30px;
+}
+.get-early-acces-section_text .p1 {
+  color: rgb(245, 244, 244);
+  margin: 15px 30px;
+  width: 25rem;
+}
+.get-early-access-input {
+  display: flex;
+  margin: 15px 80px;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.get-started-btn-free {
+  font-size: 10px;
+  padding: 5px 24px;
+  width: 150px;
+  color: white;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 2px;
+}
+
+footer {
+  width: auto;
+  height: auto;
+  background-color: hsl(243, 87%, 12%);
+  margin-top: -59px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 50px;
+  color: #ffffff;
+}
+
+.about-us-list-contact-lists ul {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+}
+
+.about-us-list-contact-lists a {
+  text-decoration: none;
+  padding: 10px;
+  color: #fffdfd;
+  font-size: 12px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  color: hsl(243, 87%, 12%);
+  font-size: 13px;
+  font-weight: 400;
+}
+.social-medial-icons {
+  display: flex;
+  padding: 20px;
+  gap: 8px;
+}
+
+.social-medial-icon {
+  height: 20px;
+  border-radius: 100px;
+  color: gray;
+}
+a:hover {
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+.footer-logo-phone-email .m1 {
+  padding: 5px;
+  display: block;
+}
+
+.footer-logo {
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution {
+  margin: 10px;
+  padding: 20px;
+  background-color: #71ed84;
+}

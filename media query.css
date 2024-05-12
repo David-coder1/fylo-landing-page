@@ -1,0 +1,56 @@
+@media only screen and (max-width: 390px) {
+  .all-your-files-section,
+  .stay-productive-section {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .stay-productive-section {
+    margin-top: 100px;
+    margin: 20px;
+  }
+
+  .all-your-files-section h1 {
+    text-align: center;
+    margin: 5px 4px;
+    width: 23rem;
+  }
+  .all-your-files-section p {
+    width: 20rem;
+    text-align: center;
+  }
+  nav a {
+    padding: 5px;
+  }
+  .input-and-get-started-btn {
+    margin: 30px -10px;
+  }
+  .stay-productive-text {
+    font-size: 12px;
+  }
+  .get-early-acces-section {
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .get-early-acces-section_text .p1 {
+    color: rgb(245, 244, 244);
+    margin: 6px 30px;
+    width: 19rem;
+    text-align: center;
+  }
+  .get-started-btn {
+    width: 230px;
+    margin: 30px -10px;
+  }
+  .get-started-btn-free {
+    width: 220px;
+    margin: 30px -10px;
+  }
+
+  footer {
+    background-color: hsl(243, 87%, 12%);
+    display: block;
+  }
+}
