@@ -95,6 +95,7 @@ input {
 .stay-productive-section {
   margin-top: 170px;
 }
+
 .stay-productive-text {
   margin: 30px 20px;
 }
@@ -170,11 +171,13 @@ input {
   font-size: 23px;
   color: white;
   margin: 15px 30px;
+  text-align: center;
 }
 .get-early-acces-section_text .p1 {
   color: rgb(245, 244, 244);
   margin: 15px 30px;
   width: 25rem;
+  text-align: center;
 }
 .get-early-access-input {
   display: flex;
